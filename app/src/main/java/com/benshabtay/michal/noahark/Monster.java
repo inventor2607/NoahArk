@@ -1,4 +1,4 @@
-package com.benshabtay.michal.noahark.monsersScreen;
+package com.benshabtay.michal.noahark;
 
 /**
  * Created by max on 26.01.2018.
@@ -6,10 +6,10 @@ package com.benshabtay.michal.noahark.monsersScreen;
 
 public class Monster {
 
-    private String name;
-    private int photoId;
+    String name;
+    int photoId;
 
-    Monster(String name, String age, int photoId) {
+    Monster(String name, int photoId) {
         this.name = name;
         this.photoId = photoId;
     }
